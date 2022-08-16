@@ -1,0 +1,25 @@
+
+Q3) What is the difference between List and Set ?
+ans. 
+
+
+1.	The list implementation allows us to add the same or duplicate elements.	
+	The set implementation doesn't allow us to add the same or duplicate elements.
+	
+2.	The insertion order is maintained by the List.	
+	Set doesn't maintain the insertion order of elements.
+	
+3.	List allows us to add any number of null values.	
+	Set allows us to add at least one null value in it.
+	
+4.	The List implementation classes are LinkedList and ArrayList.	
+	The Set implementation classes are TreeSet, HashSet and LinkedHashSet.
+	
+5.	We can get the element of a specified index from the list using the get() method.	
+	We cannot find the element from the Set based on the index because it doesn't provide any get method().
+	
+6.	List is used when we want to frequently access the elements by using the index.	
+	Set is used when we want to design a collection of distinct elements.
+	
+7.	The method of List interface listiterator() is used to iterate the List elements.	
+	The iterator is used when we need to iterate the Set elements.
