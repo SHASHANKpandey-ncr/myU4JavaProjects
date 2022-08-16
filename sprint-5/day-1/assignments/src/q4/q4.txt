@@ -1,0 +1,15 @@
+Q4) Explain the difference between Checked and Unchecked exception?
+
+Ans. Difference between Checked and Unchecked Exceptions:
+
+     1. Checked Exception: The classes that directly inherit the Throwable class except
+     RuntimeException and Error are known as checked exceptions. For example, IOException,
+     SQLException, etc. Checked exceptions are called compile-time exceptions because these
+     exceptions are checked at compile-time by the compiler.
+
+     2. Unchecked Exception: The classes that inherit the RuntimeException are known as
+     unchecked exceptions. For example, ArithmeticException, NullPointerException,
+     ArrayIndexOutOfBoundsException, etc. Unchecked exceptions are not checked at
+     compile-time, but they are checked at runtime. In simple words, if a program throws an
+     unchecked exception, and even if we didn’t handle or declare it, the program would not
+     give a compilation error.
