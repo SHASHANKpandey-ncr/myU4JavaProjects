@@ -1,0 +1,46 @@
+Question 1: Explain the difference between dynamic Polymorphism and dynamic binding ?
+
+Ans. 
+     Dynamic Polymorphism :
+     
+     Dynamic polymorphism is a process or mechanism in which a call to an overridden method is to 
+     resolve at runtime rather than compile-time. It is also known as runtime polymorphism
+     or dynamic method dispatch. We can achieve dynamic polymorphism by using the method overriding.
+
+     In this process, an overridden method is called through a reference variable of a superclass. 
+     The determination of the method to be called is based on the object being referred to by the 
+     reference variable.
+     
+ 
+     Dynamic Binding (also known as Late Binding):
+     
+     When type of the object is determined at run-time, it is known as dynamic binding.
+     
+     Example:
+     
+     class Animal{  
+		 void eat(){
+			 System.out.println("animal is eating...");
+		 }  
+	}  
+  
+	class Dog extends Animal{  
+		 void eat(){
+		 	System.out.println("dog is eating...");
+		 }  
+  
+		 public static void main(String[] args){  
+  			Animal a=new Dog();  
+  			a.eat();  
+ 		}  
+	} 
+	
+		In the above example object type cannot be determined by the compiler, because the instance of Dog 
+		is also an instance of Animal.So compiler doesn't know its type, only its base type.
+	
+	
+	
+	
+	
+	
+	

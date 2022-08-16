@@ -1,0 +1,22 @@
+Q2) Why String is immutable in java and what is the difference between String and String Builder? And
+    write some of the methods of String class at least 5 with example.
+
+Ans. In Java, a string is an object that represents a sequence of characters. there is a
+     predefined class in java called String, which belongs to java.lang package, this String
+     class is used to create a string object. As Java uses the concept of String literal.
+     Suppose there are 5 reference variables, all refer to one object "Masai". If one reference
+     variable changes the value of the object, it will be affected by all the reference variables.
+     That is why String objects are immutable in Java.
+
+     But, if we want to create a mutable (modifiable) String object, we should use either
+     StringBuffer or StringBuilder classes. both classes belong to java.lang package also.
+
+
+
+     Methods of String class :
+
+     1. int length(): Returns the number of characters in the String
+     2. Char charAt(int i): Returns the character at ith index.
+     3. String substring (int i):  Return the substring from the ith index character to end
+     4. String substring (int i, int j): Returns the substring from i to j-1 index
+     5. String concat( String str): Concatenates specified string to the end of this string.

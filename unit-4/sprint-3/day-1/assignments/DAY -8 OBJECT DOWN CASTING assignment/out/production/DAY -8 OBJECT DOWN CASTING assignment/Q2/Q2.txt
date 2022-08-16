@@ -1,0 +1,32 @@
+Q2. Explain dynamic polymorphism ?
+
+Ans. Dynamic polymorphism is a process or mechanism in which a call to an overridden method is
+     to resolve at runtime rather than compile-time. It is also known as runtime polymorphism or
+     dynamic method dispatch. We can achieve dynamic polymorphism by using the method overriding.
+
+     In this process, an overridden method is called through a reference variable of a superclass.
+     The determination of the method to be called is based on the object being referred to by the
+     reference variable.
+
+
+    Example:
+
+    class Bike{
+
+        void run(){
+        System.out.println("running");
+        }
+
+    }
+
+    class Splendor extends Bike{
+
+        void run(){
+             System.out.println("running safely with 60km");
+        }
+
+        public static void main(String args[]){ // output of main method will be - running safely with 60km
+            Bike b = new Splendor();//upcasting
+            b.run();
+        }
+    }
