@@ -1,0 +1,13 @@
+Q2. Explain the difference between overloading and overriding methods with an example?
+
+Ans. Method overloading - 
+        It is used to increase readability of program.
+        It is performed within the classes.
+        Its parameters must be diffrent.
+        It is example of compile time ploymorphism.
+
+    Method overriding -
+        It is used to provide the specific implementation.
+        It occurs in 2 classes.
+        Its parameters must be same.
+        It is example of run time ploymorphism.

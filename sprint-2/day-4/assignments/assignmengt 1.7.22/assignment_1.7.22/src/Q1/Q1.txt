@@ -1,0 +1,61 @@
+Q1) What is the use of ‘this’ and ‘super’ keywords in java ?
+    explain with an example.
+
+Ans. Keyword 'THIS' in Java is a reference variable that refers to the current object.
+     It can be used to refer current class instance variable. It can be used to invoke or
+     initiate current class constructor. It can be passed as an argument in the method call.
+     It can be passed as argument in the constructor call also.
+
+     Ex - public class Main {
+            int x;
+
+            // Constructor with a parameter
+            public Main(int x) {
+              this.x = x;
+            }
+
+            // Call the constructor
+            public static void main(String[] args) {
+              Main myObj = new Main(5);
+              System.out.println("Value of x = " + myObj.x);
+            }
+          }
+
+     The 'SUPER' keyword in Java is a reference variable that is used to refer to immediate
+     parent class object.Whenever you create the instance of a subclass, an instance of parent
+     class is created implicitly which is referred by the super reference variable. Super can be
+     used to refer to the immediate parent class instance variable. Super can be used to invoke the
+     immediate parent class method. Super() can be used to invoke immediate parent class constructor.
+
+    Ex - class Animal{
+
+         String color="white";
+
+         }
+
+         class Dog extends Animal{
+
+         String color="black";
+
+         void printColor(){
+
+         System.out.println(color);       //prints color of Dog class
+
+         System.out.println(super.color); //prints color of Animal class
+
+         }
+
+         }
+
+         class Main{
+
+         public static void main(String args[]){
+
+         Dog d=new Dog();
+
+         d.printColor();
+         }
+         }
+
+
+
