@@ -1,4 +1,4 @@
-public class Java_switch_case {
+public class Java_switch_case { 
 
         public static void main(String[] args){
             String city="Bangalore";
