@@ -1,7 +1,7 @@
 Question 1: Explain the difference between dynamic Polymorphism and dynamic binding ?
 
 Ans. 
-     Dynamic Polymorphism :
+     Dynamic Polymorphism : 
      
      Dynamic polymorphism is a process or mechanism in which a call to an overridden method is to 
      resolve at runtime rather than compile-time. It is also known as runtime polymorphism
